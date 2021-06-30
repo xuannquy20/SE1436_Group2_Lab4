@@ -11,7 +11,6 @@ namespace Lab4_Template
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
     }
 }
