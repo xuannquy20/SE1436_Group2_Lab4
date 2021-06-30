@@ -57,7 +57,8 @@
     &nbsp;<table class="auto-style2">
     <tr>
         <td class="auto-style11" style="font-weight: bold">List of genres:</td>
-        <td class="auto-style12">&nbsp;</td>
+        <td class="auto-style12"><asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDataTable" TypeName="Lab3_Template.DAL.GenreDAO"></asp:ObjectDataSource>
+        </td>
         <td class="auto-style13">&nbsp;</td>
     </tr>
     <tr>
@@ -73,16 +74,22 @@
                 <SelectedRowStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
             </asp:GridView>
         </td>
-        <td class="auto-style8"><asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDataTable" TypeName="Lab3_Template.DAL.GenreDAO"></asp:ObjectDataSource>
+        <td class="auto-style8">
+            <asp:Image ID="Image2" runat="server" Height="186px" ImageUrl="~/Images/home-showcase.png" Width="518px" />
         </td>
         <td class="auto-style9">&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style24" style="font-weight: bold; ">
-            Albums: <asp:Label ID="lblGenreID" runat="server" Text="Rock"></asp:Label>
+            Albums: <asp:Label ID="lblGenreName" runat="server" Text="Rock"></asp:Label>
         </td>
         <td class="auto-style25">
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="lblGenreID" runat="server" Text="1" Visible="False"></asp:Label>
+    <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="GetDataTable" TypeName="Lab3_Template.DAL.AlbumDAO" FilterExpression="GenreID = {0}">
+        <FilterParameters>
+            <asp:ControlParameter ControlID="lblGenreID" DefaultValue="" Name="newparameter" PropertyName="Text" />
+        </FilterParameters>
+            </asp:ObjectDataSource>
         </td>
         <td class="auto-style26">
             </td>
@@ -91,7 +98,7 @@
         <td class="auto-style27" style="font-weight: normal; ">
             <asp:GridView ID="GridView2" runat="server" AllowPaging="True" AllowSorting="True" DataSourceID="ObjectDataSource2" EnableModelValidation="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="auto-style17">
         <Columns>
-            <asp:CommandField ShowSelectButton="True" />
+            <asp:ButtonField CommandName="Detail" Text="Detail" />
         </Columns>
                 <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                 <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
@@ -101,8 +108,7 @@
     </asp:GridView>
         </td>
         <td class="auto-style28">
-    <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="GetDataTable" TypeName="Lab3_Template.DAL.AlbumDAO"></asp:ObjectDataSource>
-        </td>
+            &nbsp;</td>
         <td class="auto-style29">
             &nbsp;</td>
     </tr>

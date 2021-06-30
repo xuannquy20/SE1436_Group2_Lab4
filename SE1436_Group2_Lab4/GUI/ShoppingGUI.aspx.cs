@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab3_Template.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -26,6 +27,8 @@ namespace SE1436_Group2_Lab4.GUI
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            lblGenreName.Text = GridView1.SelectedRow.Cells[2].Text;
+            lblGenreID.Text = GridView1.SelectedRow.Cells[1].Text;
         }
     }
 }
