@@ -37,8 +37,8 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td class="auto-style1">
-    <asp:Label ID="lblGenreID" runat="server" Text="Label"></asp:Label>
+        <td class="auto-style1" style="font-size: 20px; font-weight: bold; font-family: sans-serif;">
+            Albums: <asp:Label ID="lblGenreID" runat="server" Text="Rock"></asp:Label>
         </td>
         <td class="auto-style3">
     <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="GetDataTable" TypeName="Lab3_Template.DAL.AlbumDAO"></asp:ObjectDataSource>
