@@ -57,6 +57,10 @@
     <Content Include="GUI\CartGUI.aspx" />
     <Content Include="GUI\ShoppingGUI.aspx" />
     <Content Include="GUI\AlbumDetail.aspx" />
+    <Content Include="Images\e7b4b670-4436-49de-b3f2-1c5505f93baa.gif" />
+    <Content Include="Images\home-showcase.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\placeholder.gif" />
     <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -26,7 +26,6 @@ namespace SE1436_Group2_Lab4.GUI
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
         }
     }
 }
