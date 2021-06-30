@@ -56,6 +56,7 @@
     <Content Include="Global.asax" />
     <Content Include="GUI\CartGUI.aspx" />
     <Content Include="GUI\LoginGUI.aspx" />
+    <Content Include="GUI\ReportGUI.aspx" />
     <Content Include="GUI\ShoppingGUI.aspx" />
     <Content Include="GUI\AlbumDetail.aspx" />
     <Content Include="Images\e7b4b670-4436-49de-b3f2-1c5505f93baa.gif" />
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="GUI\LoginGUI.aspx.designer.cs">
       <DependentUpon>LoginGUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ReportGUI.aspx.cs">
+      <DependentUpon>ReportGUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\ReportGUI.aspx.designer.cs">
+      <DependentUpon>ReportGUI.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\ShoppingGUI.aspx.cs">
       <DependentUpon>ShoppingGUI.aspx</DependentUpon>
