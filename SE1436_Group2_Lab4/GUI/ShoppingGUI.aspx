@@ -77,10 +77,10 @@
     </tr>
     <tr>
         <td class="auto-style7">
-            <asp:GridView ID="GridView2" runat="server" AllowPaging="True" AllowSorting="True" DataSourceID="ObjectDataSource2" EnableModelValidation="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="auto-style17">
-        <Columns>
-            <asp:ButtonField CommandName="Detail" Text="Detail" />
-        </Columns>
+            <asp:GridView ID="GridView2" runat="server" AllowPaging="True" AllowSorting="True" DataSourceID="ObjectDataSource2" EnableModelValidation="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="auto-style17" OnSelectedIndexChanged="GridView2_SelectedIndexChanged">
+                <Columns>
+                    <asp:ButtonField CommandName="Detail" Text="Detail" />
+                </Columns>
                 <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                 <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
                 <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />

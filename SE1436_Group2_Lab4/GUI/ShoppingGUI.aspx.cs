@@ -17,8 +17,7 @@ namespace SE1436_Group2_Lab4.GUI
 
         protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
         {
-            try
-            {
+            try { 
                 e.Row.Cells[1].Visible = false;
                 e.Row.Cells[3].Visible = false;
             }
@@ -29,6 +28,11 @@ namespace SE1436_Group2_Lab4.GUI
         {
             lblGenreName.Text = GridView1.SelectedRow.Cells[2].Text;
             lblGenreID.Text = GridView1.SelectedRow.Cells[1].Text;
+        }
+
+        protected void GridView2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Response.Redirect("AlbumDetail.aspx?albumid=" + GridView1.SelectedRow.Cells[1].Text);
         }
     }
 }
