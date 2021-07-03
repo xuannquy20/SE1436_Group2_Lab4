@@ -43,5 +43,15 @@ namespace SE1436_Group2_Lab4.GUI
                 Response.Redirect("AlbumDetail.aspx?albumid=" + GridView2.Rows[int.Parse(e.CommandArgument.ToString())].Cells[1].Text);
             }
         }
+
+        protected void GridView2_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            try
+            {
+                e.Row.Cells[2].Visible = false;
+                e.Row.Cells[3].Visible = false;
+            }
+            catch (Exception ex) { }
+        }
     }
 }
