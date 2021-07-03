@@ -32,7 +32,16 @@ namespace SE1436_Group2_Lab4.GUI
 
         protected void GridView2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Response.Redirect("AlbumDetail.aspx?albumid=" + GridView1.SelectedRow.Cells[1].Text);
+            
+        }
+
+        protected void GridView2_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if(e.CommandName == "Detail")
+            {
+                
+                Response.Redirect("AlbumDetail.aspx?albumid=" + GridView2.Rows[int.Parse(e.CommandArgument.ToString())].Cells[1].Text);
+            }
         }
     }
 }
