@@ -13,5 +13,10 @@ namespace SE1436_Group2_Lab4.GUI
         {
 
         }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
