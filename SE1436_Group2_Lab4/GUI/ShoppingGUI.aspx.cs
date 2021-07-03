@@ -12,7 +12,7 @@ namespace SE1436_Group2_Lab4.GUI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
