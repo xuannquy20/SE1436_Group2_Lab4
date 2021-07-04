@@ -33,96 +33,96 @@
             <tr>
                 <td class="auto-style1">Order date:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
+                    <asp:TextBox ID="orderDate" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">User name:&nbsp;</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox2" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
+                    <asp:TextBox ID="userName" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">First name:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox3" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="firstName" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="First name required!" ControlToValidate="TextBox3"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="First name required!" ControlToValidate="firstName"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style1">Last name:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox4" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="lastName" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Last name required!" ControlToValidate="TextBox4"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Last name required!" ControlToValidate="lastName"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style1">Address:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox5" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="address" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">City:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox6" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="city" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">State</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox7" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="state" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Country:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox8" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="country" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Phone:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox9" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="phone" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Email:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox10" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="email" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Email required!" ControlToValidate="TextBox10"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Email required!" ControlToValidate="email"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style3">Total:</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="TextBox11" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
+                    <asp:TextBox ID="total" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
                 </td>
                 <td class="auto-style5"></td>
             </tr>
             <tr>
                 <td class="auto-style1">Promocode:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox12" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="promoCode" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:Button ID="Button1" runat="server" Text="Order" />
+                    <asp:Button ID="Button1" runat="server" Text="Order" OnClick="Button1_Click" />
                 </td>
                 <td class="auto-style2">
                     <asp:Button ID="Button2" runat="server" Text="Cancel" />

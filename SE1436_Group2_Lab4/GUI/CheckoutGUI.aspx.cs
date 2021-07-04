@@ -29,17 +29,17 @@ namespace SE1436_Group2_Lab4.GUI
                     string day = date.Day.ToString();
                     string month = date.Month.ToString();
                     string year = date.Year.ToString();
-                    TextBox1.Text = day + "/" + month + "/" + year;
+                    orderDate.Text = day + "/" + month + "/" + year;
                 }
-                TextBox2.Text = a.UserName;
-                TextBox3.Text = a.FirstName;
-                TextBox4.Text = a.LastName;
-                TextBox5.Text = a.Address;
-                TextBox6.Text = a.City;
-                TextBox7.Text = a.State;
-                TextBox8.Text = a.Country;
-                TextBox9.Text = a.Phone;
-                TextBox10.Text = a.Email;
+                userName.Text = a.UserName;
+                firstName.Text = a.FirstName;
+                lastName.Text = a.LastName;
+                address.Text = a.Address;
+                city.Text = a.City;
+                state.Text = a.State;
+                country.Text = a.Country;
+                phone.Text = a.Phone;
+                email.Text = a.Email;
                 SqlCommand cmd = new SqlCommand("select Sum((a.Price * c.count)) as total" +
                 " from Albums a join Carts c" +
                 " on c.AlbumId = a.AlbumId" +
@@ -49,9 +49,39 @@ namespace SE1436_Group2_Lab4.GUI
                 if (dt1.Rows.Count > 0)
                 {
                     DataRow dtr = dt1.Rows[0];
-                    TextBox11.Text = dtr["total"].ToString();
+                    total.Text = dtr["total"].ToString();
                 }
             }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            DateTime date = Convert.ToDateTime(orderDate.Text);
+            Order o = new Order
+            {
+                OrderDate = date,
+                PromoCode = promoCode.Text,
+                UserName = userName.Text,
+                FirstName = firstName.Text,
+                LastName = lastName.Text,
+                Address = address.Text,
+                City = city.Text,
+                State = state.Text,
+                Country = country.Text,
+                Phone = phone.Text,
+                Email = email.Text,
+                Total = double.Parse(total.Text)
+            };
+            OrderDAO.Insert(o);
+            SqlCommand sql = new SqlCommand ("insert into OrderDetails (OrderId, AlbumId,Quantity,UnitPrice) (select Max(o.orderiD) as OrderId, c.AlbumId,c.[Count], a.Price as UnitPrice from Carts c " +
+            "join Albums a " +
+            "on c.AlbumId = a.AlbumId " +
+            "join Orders o " +
+            "on o.UserName = c.CartId " +
+            "where c.CartId = (select UserName from Orders where OrderId = (select MAX(OrderId) from Orders)) " +
+            "group by c.AlbumId, c.[Count], a.Price)");
+            DAO.UpdateTable(sql);
+            Response.Redirect("OrderCompletedGUI.aspx");
         }
     }
 }
