@@ -32,13 +32,16 @@
         .auto-style33 {
             width: 382px;
         }
+        .auto-style34 {
+            width: 763px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     &nbsp;<table style="width:100%;">
         <tr>
             <td class="auto-style33">List of genres:</td>
-            <td><asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDataTable" TypeName="Lab3_Template.DAL.GenreDAO"></asp:ObjectDataSource>
+            <td class="auto-style34"><asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDataTable" TypeName="Lab3_Template.DAL.GenreDAO"></asp:ObjectDataSource>
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -55,14 +58,14 @@
                 <SelectedRowStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
             </asp:GridView>
             </td>
-            <td>
-                <asp:Image ID="Image2" runat="server" Height="178px" ImageUrl="~/Images/home-showcase.png" Width="838px" />
+            <td class="auto-style34">
+                <asp:Image ID="Image2" runat="server" Height="193px" ImageUrl="~/Images/home-showcase.png" Width="788px" />
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style33">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style34">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
     </table>

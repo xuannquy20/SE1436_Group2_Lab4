@@ -5,14 +5,14 @@
             width: 100%;
             margin-bottom: 0px;
         }
-        .auto-style5 {
-            height: 233px;
-        }
-        .auto-style6 {
-            height: 226px;
-        }
         .auto-style7 {
-            height: 195px;
+            height: 115px;
+        }
+        .auto-style8 {
+            height: 122px;
+        }
+        .auto-style9 {
+            height: 132px;
         }
     </style>
 </asp:Content>
@@ -24,14 +24,14 @@
             <td class="auto-style7"></td>
         </tr>
         <tr>
-            <td class="auto-style6"></td>
-            <td class="auto-style6"></td>
-            <td class="auto-style6"></td>
+            <td class="auto-style8"></td>
+            <td class="auto-style8"></td>
+            <td class="auto-style8"></td>
         </tr>
         <tr>
-            <td class="auto-style5"></td>
-            <td class="auto-style5"></td>
-            <td class="auto-style5"></td>
+            <td class="auto-style9"></td>
+            <td class="auto-style9"></td>
+            <td class="auto-style9"></td>
         </tr>
     </table>
 </asp:Content>
