@@ -1,0 +1,28 @@
+E:\CShap_Lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll.config
+E:\CShap_Lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll
+E:\CShap_Lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.pdb
+E:\CShap_Lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csproj.CoreCompileInputs.cache
+E:\CShap_Lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.dll
+E:\CShap_Lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.pdb
+E:\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Prepare\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Prepare\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Prepare\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.dll
+C:\Users\ASUS\Desktop\Prepare\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.pdb
+C:\Users\ASUS\Desktop\Prepare\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll.config
+C:\Users\ASUS\Desktop\Prepare\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll
+C:\Users\ASUS\Desktop\Prepare\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.pdb
+C:\Users\BAO BAO\Desktop\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll.config
+C:\Users\BAO BAO\Desktop\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll
+C:\Users\BAO BAO\Desktop\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.pdb
+C:\Users\BAO BAO\Desktop\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csprojAssemblyReference.cache
+C:\Users\BAO BAO\Desktop\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csproj.CoreCompileInputs.cache
+C:\Users\BAO BAO\Desktop\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.dll
+C:\Users\BAO BAO\Desktop\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.pdb
+E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll.config
+E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll
+E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.pdb
+E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csprojAssemblyReference.cache
+E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csproj.CoreCompileInputs.cache
+E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.dll
+E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.pdb

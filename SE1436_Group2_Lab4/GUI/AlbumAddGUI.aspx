@@ -5,7 +5,10 @@
             width: 304px;
         }
         .auto-style2 {
-            width: 751px;
+            width: 1334px;
+        }
+        .auto-style3 {
+            width: 520px;
         }
     </style>
 </asp:Content>
@@ -19,7 +22,7 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtTitle" ErrorMessage="Title required"></asp:RequiredFieldValidator>
                 </td>
-                <td>
+                <td class="auto-style3">
                     <asp:Image ID="Image2" runat="server" />
                 </td>
                 <td>&nbsp;</td>
@@ -28,14 +31,14 @@
                 <td class="auto-style2">Genre<asp:DropDownList ID="ddlGenre" runat="server" Height="21px" Style="margin-left: 7px" Width="260px">
                 </asp:DropDownList>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style2">Artist<asp:DropDownList ID="ddlArtist" runat="server" Height="26px" Style="margin-left: 13px" Width="252px">
                 </asp:DropDownList>
                 </td>
-                <td class="auto-style1"></td>
+                <td class="auto-style3"></td>
                 <td class="auto-style1"></td>
             </tr>
             <tr>
@@ -45,7 +48,7 @@
                     &nbsp;
                     <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtPrice" ErrorMessage="From 0 to 9999" MaximumValue="9999" MinimumValue="0"></asp:RangeValidator>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -53,7 +56,7 @@
                     <asp:FileUpload ID="FileUpload1" runat="server"/>
                     <asp:Button ID="BtnUpload" runat="server" Text="Upload" OnClick="BtnUpload_Click" />
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>

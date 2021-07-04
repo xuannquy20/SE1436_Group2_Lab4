@@ -26,7 +26,8 @@ namespace SE1436_Group2_Lab4.GUI
                 LblError.Text = "You must select an Album ";
                 return;
             }
-            Session["AlbumID"] = GridView1.SelectedRow.Cells[1].Text;
+            Session["AlbumID"] = GridView1.SelectedRow.Cells[2].Text;
+            //Label1.Text = GridView1.SelectedRow.Cells[2].Text;
             Response.Redirect("AlbumAddGUI.aspx?add=0");
         }
     }

@@ -16,7 +16,7 @@ namespace SE1436_Group2_Lab4.GUI
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
         {
-                GridView2.DataSource = null;
+                /*GridView2.DataSource = null;
                 GridView2.DataBind();
                 numberRecord2.Visible = false;
                 SelectedDatesCollection sdc;
@@ -26,7 +26,7 @@ namespace SE1436_Group2_Lab4.GUI
                 DataTable data = ReportDAO.GetOrderByInformation(txtFrom.Text, txtTo.Text, TextBox3.Text, TextBox4.Text);
                 GridView1.DataSource = data;
                 GridView1.DataBind();
-                numberRecord1.Text = data.Rows.Count.ToString();
+                numberRecord1.Text = data.Rows.Count.ToString();*/
         }
     }
 }
