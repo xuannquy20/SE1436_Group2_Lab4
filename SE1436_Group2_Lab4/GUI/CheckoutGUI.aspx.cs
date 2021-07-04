@@ -83,5 +83,10 @@ namespace SE1436_Group2_Lab4.GUI
             DAO.UpdateTable(sql);
             Response.Redirect("OrderCompletedGUI.aspx");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ShoppingGUI.aspx");
+        }
     }
 }

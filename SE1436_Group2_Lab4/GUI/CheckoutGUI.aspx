@@ -125,7 +125,7 @@
                     <asp:Button ID="Button1" runat="server" Text="Order" OnClick="Button1_Click" />
                 </td>
                 <td class="auto-style2">
-                    <asp:Button ID="Button2" runat="server" Text="Cancel" />
+                    <asp:Button ID="Button2" runat="server" Text="Cancel" CausesValidation="False" OnClick="Button2_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
