@@ -10,10 +10,10 @@
         }
         .auto-style3 {
             height: 23px;
-            width: 252px;
+            width: 320px;
         }
         .auto-style5 {
-            width: 252px;
+            width: 320px;
             height: 193px;
         }
         .auto-style6 {
@@ -21,7 +21,7 @@
         }
         .auto-style7 {
             height: 13px;
-            width: 252px;
+            width: 320px;
         }
         .auto-style8 {
             height: 13px;
@@ -31,24 +31,39 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <table class="auto-style2">
         <tr>
-            <td class="auto-style3" align="char">Order date:<asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged" Width="207px"></asp:Calendar>
+            <td class="auto-style3" align="char">Order date:<asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged" Width="207px" SelectedDate="2021-07-05" SelectionMode="DayWeekMonth"></asp:Calendar>
             </td>
             <td class="auto-style1">From:<br />
-                <input id="Text1" type="text" /><br />
+                <asp:TextBox ID="txtFrom" runat="server"></asp:TextBox>
+                <br />
                 To:<br />
-                <input id="Text2" type="text" /><br />
+                <asp:TextBox ID="txtTo" runat="server"></asp:TextBox>
+                <br />
                 FirstName:<br />
-                <input id="Text3" type="text" /><br />
+                <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                <br />
                 Country:<br />
-                <input id="Text4" type="text" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Button ID="Button1" runat="server" Text="Filter" Width="59px" />
             </td>
             <td class="auto-style1"></td>
         </tr>
         <tr>
-            <td class="auto-style5">The number of orders: 0<br />
-                <asp:GridView ID="GridView1" runat="server">
+            <td class="auto-style5">The number of orders:
+                <asp:Label ID="numberRecord1" runat="server" Text="0"></asp:Label>
+                <br />
+                <asp:GridView ID="GridView1" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="auto-style7" DataSourceID="SqlDataSource1" EnableModelValidation="True">
+                    <Columns>
+                        <asp:CommandField ShowSelectButton="True" />
+                    </Columns>
+                    <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
+                    <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
+                    <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
+                    <RowStyle BackColor="White" ForeColor="#003399" />
+                    <SelectedRowStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
                 </asp:GridView>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
                 <br />
             </td>
             <td class="auto-style6">
@@ -66,9 +81,10 @@
             <td class="auto-style7">
                 <br />
                 <br />
-                The number of orders details: 0
+                The number of orders details:
+                <asp:Label ID="numberRecord2" runat="server" Text="0"></asp:Label>
                 <br />
-                <asp:GridView ID="GridView2" runat="server">
+                <asp:GridView ID="GridView2" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4">
                 </asp:GridView>
                 <br />
             </td>
