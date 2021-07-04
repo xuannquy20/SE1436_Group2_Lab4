@@ -7,6 +7,17 @@
         .auto-style2 {
             width: 258px;
         }
+        .auto-style3 {
+            width: 216px;
+            height: 29px;
+        }
+        .auto-style4 {
+            width: 258px;
+            height: 29px;
+        }
+        .auto-style5 {
+            height: 29px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -22,14 +33,14 @@
             <tr>
                 <td class="auto-style1">Order date:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">User name:&nbsp;</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox2" runat="server" Width="194px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -39,7 +50,7 @@
                     <asp:TextBox ID="TextBox3" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="First name required!"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="First name required!" ControlToValidate="TextBox3"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -48,7 +59,7 @@
                     <asp:TextBox ID="TextBox4" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Last name required!"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Last name required!" ControlToValidate="TextBox4"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -92,15 +103,15 @@
                     <asp:TextBox ID="TextBox10" runat="server" Width="194px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Email required!"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Email required!" ControlToValidate="TextBox10"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style1">Total:</td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="TextBox11" runat="server" Width="194px"></asp:TextBox>
+                <td class="auto-style3">Total:</td>
+                <td class="auto-style4">
+                    <asp:TextBox ID="TextBox11" runat="server" Width="194px" ReadOnly="True"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style5"></td>
             </tr>
             <tr>
                 <td class="auto-style1">Promocode:</td>
