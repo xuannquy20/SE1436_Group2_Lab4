@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="GUI\AlbumAddGUI.aspx" />
+    <Content Include="GUI\AlbumGUI.aspx" />
     <Content Include="GUI\CartGUI.aspx" />
     <Content Include="GUI\CheckoutGUI.aspx" />
     <Content Include="GUI\LoginGUI.aspx" />
@@ -96,6 +98,20 @@
     <Compile Include="DTL\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AlbumAddGUI.aspx.cs">
+      <DependentUpon>AlbumAddGUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\AlbumAddGUI.aspx.designer.cs">
+      <DependentUpon>AlbumAddGUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AlbumGUI.aspx.cs">
+      <DependentUpon>AlbumGUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\AlbumGUI.aspx.designer.cs">
+      <DependentUpon>AlbumGUI.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\CartGUI.aspx.cs">
       <DependentUpon>CartGUI.aspx</DependentUpon>

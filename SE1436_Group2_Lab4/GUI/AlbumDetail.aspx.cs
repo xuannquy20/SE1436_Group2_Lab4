@@ -24,6 +24,8 @@ namespace SE1436_Group2_Lab4.GUI
                 TextBox2.Text = GenreDAO.GetGenreByID(ab.GenreID).Name;
                 TextBox3.Text = ab.Price.ToString();
             }
+
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -31,6 +33,11 @@ namespace SE1436_Group2_Lab4.GUI
             ShoppingCartDAO cart = ShoppingCartDAO.GetCart(HttpContext.Current);
             cart.AddToCart(int.Parse(Label2.Text));
             Response.Redirect("CartGUI.aspx");
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

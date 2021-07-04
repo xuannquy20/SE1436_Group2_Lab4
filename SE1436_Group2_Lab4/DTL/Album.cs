@@ -49,6 +49,26 @@ namespace Lab3_Template.DTL
 
         string albumUrl;
 
+        public Album(int albumID, int genreID, int artistID, string title, double price, string albumUrl)
+        {
+            this.albumID = albumID;
+            this.genreID = genreID;
+            this.artistID = artistID;
+            this.title = title;
+            this.price = price;
+            this.albumUrl = albumUrl;
+        }
+        public Album(int genreID, int artistID, string title, double price, string albumUrl)
+        {
+            this.genreID = genreID;
+            this.artistID = artistID;
+            this.title = title;
+            this.price = price;
+            this.albumUrl = albumUrl;
+        }
 
-     }
+        public Album()
+        {
+        }
+    }
 }

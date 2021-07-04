@@ -40,6 +40,21 @@ namespace Lab3_Template.DAL
             return albums.AsEnumerable();
 
         }
+
+
+        public static DataTable GetGenre()
+        {
+            string sql = "select * from Genres";
+            return DAO.GetDataTable(sql);
+
+        }
+        public static DataTable GetArtist()
+        {
+            string sql = "select * from Artists";
+            return DAO.GetDataTable(sql);
+
+        }
+
         public static DataTable GetDataTable()
         {
             string sql = "select * from Albums";

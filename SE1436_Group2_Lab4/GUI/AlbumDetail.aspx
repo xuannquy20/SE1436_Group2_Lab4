@@ -18,7 +18,7 @@
             <tr>
                 <td class="auto-style1">Artist:</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server" Width="217px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="217px" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
                     <asp:Label ID="Label2" runat="server" Text="Label" Visible="False"></asp:Label>
                 </td>
                 <td>&nbsp;</td>
