@@ -24,22 +24,22 @@ namespace SE1436_Group2_Lab4.GUI
         protected global::System.Web.UI.WebControls.Calendar Calendar1;
 
         /// <summary>
-        /// txtFrom control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFrom;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
-        /// txtTo control.
+        /// TextBox2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTo;
+        protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
         /// TextBox3 control.
@@ -87,13 +87,31 @@ namespace SE1436_Group2_Lab4.GUI
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// numberRecord2 control.
+        /// OrderID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label numberRecord2;
+        protected global::System.Web.UI.WebControls.Label OrderID;
+
+        /// <summary>
+        /// txtTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label txtTitle;
+
+        /// <summary>
+        /// numberOfRecord2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label numberOfRecord2;
 
         /// <summary>
         /// GridView2 control.

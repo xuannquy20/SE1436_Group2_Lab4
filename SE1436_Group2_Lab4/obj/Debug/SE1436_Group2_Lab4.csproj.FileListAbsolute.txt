@@ -26,3 +26,10 @@ E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csprojA
 E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csproj.CoreCompileInputs.cache
 E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.dll
 E:\Cshap_lab4\Cshap_lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.pdb
+C:\Users\Admin\source\repos\SE1436_Group2_Lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll.config
+C:\Users\Admin\source\repos\SE1436_Group2_Lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.dll
+C:\Users\Admin\source\repos\SE1436_Group2_Lab4\SE1436_Group2_Lab4\bin\SE1436_Group2_Lab4.pdb
+C:\Users\Admin\source\repos\SE1436_Group2_Lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\SE1436_Group2_Lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SE1436_Group2_Lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.dll
+C:\Users\Admin\source\repos\SE1436_Group2_Lab4\SE1436_Group2_Lab4\obj\Debug\SE1436_Group2_Lab4.pdb

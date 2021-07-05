@@ -87,6 +87,7 @@
     <Compile Include="DAL\GenreDAO.cs" />
     <Compile Include="DAL\OrderDAO.cs" />
     <Compile Include="DAL\OrderDetailDAO.cs" />
+    <Compile Include="DAL\ReportDAO.cs" />
     <Compile Include="DAL\ShoppingCartDAO.cs" />
     <Compile Include="DAL\UserDAO.cs" />
     <Compile Include="DTL\Album.cs" />
