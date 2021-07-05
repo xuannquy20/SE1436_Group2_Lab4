@@ -53,18 +53,14 @@
             <td class="auto-style5">The number of orders:
                 <asp:Label ID="numberRecord1" runat="server" Text="0"></asp:Label>
                 <br />
-                <asp:GridView ID="GridView1" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="auto-style7" DataSourceID="SqlDataSource1" EnableModelValidation="True">
-                    <Columns>
-                        <asp:CommandField ShowSelectButton="True" />
-                    </Columns>
+                <br />
+                <asp:GridView ID="GridView1" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="auto-style7" EnableModelValidation="True">
                     <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                     <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
                     <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
                     <RowStyle BackColor="White" ForeColor="#003399" />
                     <SelectedRowStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
                 </asp:GridView>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
-                <br />
             </td>
             <td class="auto-style6">
                 <br />
@@ -84,7 +80,12 @@
                 The number of orders details:
                 <asp:Label ID="numberRecord2" runat="server" Text="0"></asp:Label>
                 <br />
-                <asp:GridView ID="GridView2" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4">
+                <asp:GridView ID="GridView2" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" EnableModelValidation="True">
+                    <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
+                    <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
+                    <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
+                    <RowStyle BackColor="White" ForeColor="#003399" />
+                    <SelectedRowStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
                 </asp:GridView>
                 <br />
             </td>
